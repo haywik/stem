@@ -1,0 +1,103 @@
+body {
+    background-color: #000435;
+    padding: 0;
+    
+    margin: 0;
+    
+}
+
+
+
+/*
+
+#frame1 {
+    border-color:rgb(138, 136, 136);
+    border-style: solid;
+    border-width: 0.7vh;
+    background-color: rgb(153, 151, 151);  
+    border-radius: 50px 50px 25px 25px; 
+    text-align: center;
+    height: 40vh;
+    width: 60vh;
+    margin: auto;
+    margin-top: 20vh;
+}
+*/
+
+#header{
+    background-color: navy;
+    padding: 0 auto;
+    margin: 0 auto;
+    text-indent: 0.3vh;
+    color: white;   
+    display: flex;
+    justify-content: space-between;
+}
+
+#header_text{
+    color:aquamarine;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    margin: 0;
+}
+
+
+
+form {
+    border-color:rgb(138, 136, 136);
+    border-style: solid;
+    border-width: 0.7vh;
+    background-color: rgb(153, 151, 151);  
+    border-radius: 50px 50px 25px 25px; 
+    text-align: center;
+    height: 20vh;
+    width: 60vh;
+    margin: auto;
+    margin-top: 30vh;
+}
+
+input[type=textu], select{
+    width: 80%;
+    height: 10%;
+    margin-bottom: 2%;
+    background-color: grey;
+    margin-top:7%;
+    outline: none;
+    font-family: Verdana;
+    letter-spacing: 0.125em;
+}
+
+input[type=password], select{
+    visibility: visible;
+    width: 80%;
+    height: 10%;
+    margin-bottom: 2%;
+    margin-top: 6%;
+    outline: none;
+    background-color: grey;
+    font-family: Verdana;
+    letter-spacing: 0.5em;
+   
+}
+
+
+
+
+
+
+input[type=textu]:focus{
+    border: 1px solid beige;
+}
+
+input[type=textp]:focus{
+    border: 1px solid beige;
+}
+
+
+
+input::placeholder{
+    color:beige;
+    text-align: center;
+    font-size: 100%;
+    letter-spacing: 0.125em;
+}
